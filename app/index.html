@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download de Arquivos PDF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2em;
+    }
+
+    .button-container {
+      margin: 20px 0;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    .btn-download-1 {
+      background-color: #2196F3;
+    }
+
+    .btn-download-1:hover {
+      background-color: #0b7dda;
+    }
+
+    .btn-download-2 {
+      background-color: #f44336;
+    }
+
+    .btn-download-2:hover {
+      background-color: #da190b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Baixar Arquivos PDF</h1>
+  <div class="button-container">
+    <a href="simples.pdf" download class="btn btn-download-1">Download PDF 1</a>
+    <a href="complexo.pdf" download class="btn btn-download-2">Download PDF 2</a>
+  </div>
+</body>
+</html>
